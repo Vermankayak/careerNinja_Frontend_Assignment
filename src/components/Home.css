@@ -1,0 +1,191 @@
+
+body{
+  overflow:hidden!important;
+}
+
+.text__1{
+  position: absolute!important;
+  margin-top:55%!important;
+  align-items: center!important;
+  display: flex!important;
+  justify-content: center!important;
+  color:white!important
+}
+.text__2{
+  position: absolute!important;
+  margin-top:85%!important;
+  align-items: center!important;
+  display: flex!important;
+  justify-content: center!important;
+  color:white!important
+}
+.div-line {
+  margin-top:70%!important;
+	border-top: 3px solid #f0f0f0;
+	width: 40%;
+	height: 1px;
+	align-items: center!important;
+  display: flex!important;
+  justify-content: center!important;
+}
+.outer__container{
+  height:100vh!important;
+  background-color:#191a25;
+  position:relative!important
+}
+.inner__container__0{
+  position: absolute!important;
+  opacity:0.4!important;
+  height:100vh!important;
+  background-color:#191a25;
+  z-index:1
+}
+.myCircularBar{
+position: relative!important;
+
+}
+.inner__container__2{
+  background-color: #212429!important;
+}
+.inner__card__3{
+  background-color: #212429!important;
+  color:white!important;
+}
+.inner__card__4{
+  background-color: #212429!important;
+  color:white!important;
+}
+img{
+  position: absolute!important;
+  overflow:hidden!important;
+  border-radius:50%!important;
+  width: 36%!important;
+  height:36%!important;
+
+}
+.inner__card__1{
+  background-color: #24292d!important;
+  }
+
+.inner__card__2{
+  background-color:#1c2025!important;
+
+}
+.innermost__1{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0) 65%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  ), url("../images/jon-snow.jpg");
+  background-position: center center !important;
+  background-color: #24292d!important;
+  background-size: cover !important;
+  
+}
+.innermost__2{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0) 65%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),url("../images/Ramsay_S06E09_RESZIED_FOR_INFOBOX.jpg");
+  background-position: center center !important;
+  background-color: #24292d!important;
+  background-size: cover !important;
+  
+}
+
+@media screen and (max-width:575px) {
+  .outer__container{
+    height:150vh!important;
+    background-color:#191a25;
+  }
+  .inner__card__1{
+    margin: auto!important;
+    width:40vh!important;
+  }
+  .inner__card__2{
+    margin: auto!important;
+    width:40vh!important
+  }
+  .h1__class{
+    font-size: 30px;
+  }
+  .inner__container__2{
+    margin-top:3%!important;
+    width:60%!important
+  }
+}
+@media screen and (max-width:368px) {
+  .outer__container{
+    height:100vh!important;
+    background-color:#191a25;
+  }
+ 
+  .inner__card__1{
+    margin: auto!important;
+    width:30vh!important;
+  }
+  .inner__card__2{
+    margin: auto!important;
+    width:30vh!important
+  }
+  .inner__container__2{
+    margin-top:3%!important;
+    width:70%!important
+  }
+  .text__1__0{
+    font-size: 10px;
+  }
+  .text__2__0{
+    font-size: 10px;
+  }
+  .h1__class{
+    font-size: 17px;
+  }
+}
+
