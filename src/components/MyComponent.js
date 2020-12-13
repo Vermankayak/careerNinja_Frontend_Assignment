@@ -75,13 +75,13 @@ handleResize = e => {
       <form>
       <div className={view}>
       <div className="col">
-    <TextInput className = "search-box form-control" onRequestOptions={this.handleRequestOptions} onChange={(value) => {this.handleChange(value,"king")}} options={this.props.values.optionsKing} trigger="" value={this.props.values.kingsValue} placeholder="Enter name of King"/>;
+    <TextInput className = "search-box form-control" onRequestOptions={this.handleRequestOptions} onChange={(value) => {this.handleChange(value,"king")}} options={this.props.values.optionsKing} trigger="" value={this.props.values.kingsValue} placeholder="Enter name of King"/>
     </div>
     <div className="col">
-    <TextInput className = "search-box form-control" onRequestOptions={this.handleRequestOptions} onChange={(value) => {this.handleChange(value, "type")}} options={this.props.values.optionsTypes} trigger="" value={this.props.values.typesValue} placeholder="Enter Battle Type"/>;
+    <TextInput className = "search-box form-control" onRequestOptions={this.handleRequestOptions} onChange={(value) => {this.handleChange(value, "type")}} options={this.props.values.optionsTypes} trigger="" value={this.props.values.typesValue} placeholder="Enter Battle Type"/>
     </div>
     <div className="col">
-    <TextInput className = "search-box form-control" onRequestOptions={this.handleRequestOptions} onChange={(value) => {this.handleChange(value, "location")}} options={this.props.values.optionsLocations} trigger="" value={this.props.values.locationValue} placeholder="Enter Battle Location"/>;
+    <TextInput className = "search-box form-control" onRequestOptions={this.handleRequestOptions} onChange={(value) => {this.handleChange(value, "location")}} options={this.props.values.optionsLocations} trigger="" value={this.props.values.locationValue} placeholder="Enter Battle Location"/>
     </div>
   
     <div className="container text-center">
