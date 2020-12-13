@@ -69,7 +69,7 @@ handleResize = e => {
     const view = windowSize > 768 ? "row" : "form-group"
     const input = "form-control"
     return(
-    <div>
+    <div className="container__1">
     <div className = "container heading__1">Search Your Battle</div>
     <div className = "container">
       <form>
@@ -85,7 +85,7 @@ handleResize = e => {
     </div>
   
     <div className="container text-center">
-    <Link className="link" to="/home"><button className="btn btn-primary col-sm-4 button__1 text-center">Submit</button></Link>
+    <Link className="link text-center" to="/home"><button className="btn btn-primary col-sm-4 button__1">Submit</button></Link>
     </div>
     </div>
     </form>

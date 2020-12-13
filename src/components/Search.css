@@ -1,6 +1,6 @@
-body {
-  background: #00b4cc;
-  overflow:hidden!important;
+html,body {
+  background-color:#191a25;
+  overflow: hidden!important;
 }
 .search-box{
   margin-top: 100px!important;
@@ -96,6 +96,7 @@ ul.options li.option-active {
 }
 .link{
   color:white!important;
+  margin-left:-10px!important
 }
 
 
@@ -104,12 +105,18 @@ ul.options li.option-active {
     margin-top: 20px!important;
   }
  .heading__1{
+  margin-top: 90px!important;
    font-size: 2rem!important;
  }
+body{
+  overflow-y:scroll!important; 
+  max-height:100%
+}
 }
 
 @media screen and (max-width:334px) {
  .heading__1{
+  margin-top: 90px!important;
    font-size: 1.5rem!important;
  }
 }

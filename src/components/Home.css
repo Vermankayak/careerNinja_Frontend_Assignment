@@ -1,8 +1,4 @@
 
-body{
-  overflow:hidden!important;
-}
-
 .text__1{
   position: absolute!important;
   margin-top:55%!important;
@@ -29,7 +25,8 @@ body{
   justify-content: center!important;
 }
 .outer__container{
-  height:100vh!important;
+  height: 100vh;
+  overflow: auto;
   background-color:#191a25;
   position:relative!important
 }
@@ -140,10 +137,6 @@ img{
 }
 
 @media screen and (max-width:575px) {
-  .outer__container{
-    height:150vh!important;
-    background-color:#191a25;
-  }
   .inner__card__1{
     margin: auto!important;
     width:40vh!important;
@@ -161,11 +154,6 @@ img{
   }
 }
 @media screen and (max-width:368px) {
-  .outer__container{
-    height:100vh!important;
-    background-color:#191a25;
-  }
- 
   .inner__card__1{
     margin: auto!important;
     width:30vh!important;
