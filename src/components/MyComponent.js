@@ -85,7 +85,7 @@ handleResize = e => {
     </div>
   
     <div className="container text-center">
-    <Link className="link text-center" to="/home"><button className="btn btn-primary col-sm-4 button__1">Submit</button></Link>
+    <Link className="link text-center" to="/battles"><button className="btn btn-primary col-sm-4 button__1">Submit</button></Link>
     </div>
     </div>
     </form>
