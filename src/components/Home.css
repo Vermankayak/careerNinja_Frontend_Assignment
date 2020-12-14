@@ -135,7 +135,11 @@ img{
   background-size: cover !important;
   
 }
-
+@media screen and (max-width:767px) {
+  .h1__class{
+    font-size: 20px;
+  }
+}
 @media screen and (max-width:575px) {
   .inner__card__1{
     margin: auto!important;
@@ -146,7 +150,7 @@ img{
     width:40vh!important
   }
   .h1__class{
-    font-size: 30px;
+    font-size: 20px;
   }
   .inner__container__2{
     margin-top:3%!important;
@@ -173,7 +177,7 @@ img{
     font-size: 10px;
   }
   .h1__class{
-    font-size: 17px;
+    font-size: 13px;
   }
 }
 
