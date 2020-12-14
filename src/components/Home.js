@@ -35,12 +35,29 @@ class Home extends Component{
     let king=this.props.values.kingsValue
     let types=this.props.values.typesValue
     let location=this.props.values.locationValue
-
-    king = king.slice(0, king.length-1)
-    types = types.slice(0, types.length-1)
-    location = location.slice(0, location.length-1)
+    let url
+    if (king && types && location) {
+      king = king.slice(0, king.length-1)
+      types = types.slice(0, types.length-1)
+      location = location.slice(0, location.length-1)
+      url = `https://backend-assignment-careerninja.herokuapp.com/api/battle/search?king=${king}&type=${types}&location=${location}`
+      
+    }else if(king && types) {
+      king = king.slice(0, king.length-1)
+      types = types.slice(0, types.length-1)
+      url = `https://backend-assignment-careerninja.herokuapp.com/api/battle/search?king=${king}&type=${types}`
+    }else if(king) {
+      king = king.slice(0, king.length-1)
+      url = `https://backend-assignment-careerninja.herokuapp.com/api/battle/search?king=${king}`
+     
+    } else{
+      king = king.slice(0, king.length-1)
+      types = types.slice(0, types.length-1)
+      location = location.slice(0, location.length-1)
+    }
+    
     try{
-    const info = await axios.get(`https://backend-assignment-careerninja.herokuapp.com/api/battle/search?king=${king}&type=${types}&location=${location}`)
+    const info = await axios.get(url)
 
     console.log(info.data.data)
     this.setState(
